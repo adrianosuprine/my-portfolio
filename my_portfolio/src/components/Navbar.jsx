@@ -1,9 +1,16 @@
-import './App.css'
+// import './App.css'
 import React, { useEffect, useState } from 'react';
 import { IoIosCall } from "react-icons/io";
-import { Link } from 'react-router-dom';
+import { Link } from "react-scroll";
+import { FiMenu } from 'react-icons/fi';
+import { MdClose } from "react-icons/md";
+
+import '../CSS/nav.css';
+import { navlinksdata } from '../constants';
+
 
 function Navbar() {
+  const [showMenu, setShowMenu] = useState(false);
   const [shadow, setShadow] = useState(false);
 
   useEffect(() => {
@@ -25,13 +32,27 @@ function Navbar() {
         <div className="left">
          <h1><span>Ad</span>riano.</h1>
         </div>
-        <div className="right">
-         <Link to="/"className="nav-link" id="home">Home</Link>       
-         <Link to="/about"className="nav-link">About</Link>
-         <Link to="/services"className="nav-link">Services</Link>
-         <Link to="/portfolio"className="nav-link">Portfolio</Link>
-         <Link to="/contact"className="nav-link">Contact</Link>
-         
+        <div className="desktop-menu desktop-menu-lg">
+          <ul className='menu-list menu-list-lg'>
+            {navlinksdata.map(({_id, title, link}) => (
+                <li 
+                className="menu-item"
+                key={_id}>
+                  <Link
+                  activeClass='active'
+                  to={link}
+                  spy={true}
+                  smooth={true}
+                  offset={-70}
+                  duration={500}
+              >
+                  {title}
+                  </Link>
+                </li>
+            ))}
+          </ul>
+
+        
           <p className='phone-no'> | < IoIosCall className='phn-icon' /> <span>+254720388005</span>
           </p> 
          
@@ -41,3 +62,7 @@ function Navbar() {
 }
 
 export default Navbar;
+
+
+
+

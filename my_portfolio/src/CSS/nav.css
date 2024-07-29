@@ -1,0 +1,80 @@
+/* navbar styles */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: black;
+    z-index: 1000;
+    transition: box-shadow 0.3s ease-in-out;    
+}
+.navbar-shadow {
+    box-shadow: 0 0 15px rgb(178, 189, 189);
+  }
+.left{
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 40px;
+    background: linear-gradient(to right, rgb(0, 255, 255), rgb(128, 0, 128));
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+/* Desktop Menu styles */
+.desktop-menu {
+    display: none;
+}
+
+@media (min-width: 768px) {
+    .desktop-menu {
+        display: inline-flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 1.5rem; 
+    }
+
+    .desktop-menu-lg {
+        gap: 2.5rem;
+    }
+}
+
+.menu-list {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem; 
+    
+}
+
+.menu-list-lg {
+    gap: 2.5rem;
+   
+}
+
+.menu-item {
+    font-size: 1rem; 
+    font-weight: 400; 
+    color: #9CA3AF; 
+    letter-spacing: 0.05em; 
+    cursor: pointer;
+    list-style-type: none;
+    transition: color 0.3s; }
+
+.menu-item:hover {
+    color: aqua;
+}
+
+.phone-no span{
+    background: linear-gradient(to right, rgb(0, 255, 255), rgb(128, 0, 128));
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+  }
+.phone-no {
+    font-size: 18px;    
+}
+.phn-icon {
+    font-size: smaller;
+    padding-left: 9px;
+    padding-right:4px;
+}
