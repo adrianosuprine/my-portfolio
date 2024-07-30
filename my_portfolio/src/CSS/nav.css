@@ -3,16 +3,16 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    position: fixed;
+    position: sticky;
     top: 0;
     left: 0;
     width: 100%;
     background-color: black;
-    z-index: 1000;
+    z-index: 50;
     transition: box-shadow 0.3s ease-in-out;    
 }
 .navbar-shadow {
-    box-shadow: 0 0 15px rgb(178, 189, 189);
+    box-shadow: 0 0 15px rgb(21, 204, 204);
   }
 .left{
     font-size: 20px;
@@ -43,7 +43,10 @@
 .menu-list {
     display: flex;
     align-items: center;
-    gap: 1.5rem; 
+    gap: 2.5rem; 
+    padding: 0; /* Remove default padding */
+    margin: 0; /* Remove default margin */
+    transform: translateX(-100px); 
     
 }
 
@@ -53,10 +56,10 @@
 }
 
 .menu-item {
-    font-size: 1rem; 
+    font-size: 1.3rem; 
     font-weight: 400; 
     color: #9CA3AF; 
-    letter-spacing: 0.05em; 
+    letter-spacing: 0.03em; 
     cursor: pointer;
     list-style-type: none;
     transition: color 0.3s; }

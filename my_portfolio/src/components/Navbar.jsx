@@ -50,11 +50,12 @@ function Navbar() {
                   </Link>
                 </li>
             ))}
+            <p className='phone-no'> | < IoIosCall className='phn-icon' /> <span>+254720388005</span>
+          </p> 
           </ul>
 
         
-          <p className='phone-no'> | < IoIosCall className='phn-icon' /> <span>+254720388005</span>
-          </p> 
+          
          
         </div>
       </div>
