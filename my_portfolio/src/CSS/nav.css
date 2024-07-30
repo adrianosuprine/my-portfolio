@@ -3,7 +3,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    position: sticky;
+    position: fixed;
     top: 0;
     left: 0;
     width: 100%;
@@ -44,8 +44,8 @@
     display: flex;
     align-items: center;
     gap: 2.5rem; 
-    padding: 0; /* Remove default padding */
-    margin: 0; /* Remove default margin */
+    padding: 0; 
+    margin: 0; 
     transform: translateX(-100px); 
     
 }
@@ -74,7 +74,7 @@
     -webkit-background-clip: text;
   }
 .phone-no {
-    font-size: 18px;    
+    font-size: 20px;    
 }
 .phn-icon {
     font-size: smaller;

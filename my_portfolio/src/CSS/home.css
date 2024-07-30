@@ -1,0 +1,84 @@
+/* home stylings */
+.home {
+    display: flex;
+    align-items: center;
+    margin-left: 9%;
+    margin-top: 3%;
+}
+.name{
+    background: linear-gradient(to right, rgb(0, 255, 255), rgb(128, 0, 128));
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    font-size: 3rem;
+    margin:16px 0px;
+    
+}
+.dev{
+    margin-right: 100px;
+}
+.dev h5 {
+    font-size: 1.4rem; 
+    font-weight: 400; 
+    color: #9CA3AF; 
+
+}
+.dev #hello {
+margin: 0px 0px 8px 40px;
+}
+.dev #SOD {
+    margin: 0px 0px 24px;
+    }
+
+.dev p {
+    font-size: 18px;
+}
+.resume-btn {
+    background: linear-gradient(to right, rgb(0, 255, 255), rgb(128, 0, 128));
+    color : white;
+    font-size: 19px;
+    padding-left: 17px;
+    padding-right: 17px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    border-radius: 3rem;
+    cursor: pointer;
+}
+.resume-btn:hover {
+    transform: scale(1.05);
+}
+.socials {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    transform: translateX(-200px);
+}
+  
+.socials img {
+    width: 40px;
+    height: 40px;
+    margin: 1px 8px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+  
+.socials img:hover {
+    transform: translateY(-10px);
+}
+.profile-container {
+    width: 320px; 
+    height: 320px; 
+    overflow: hidden;
+    border-radius: 50%; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 0px solid;
+    background-color: black;
+}
+
+.profile-picture {
+    width: 100%;
+    height: auto;
+    min-height: 100%; 
+    object-fit: cover; 
+}

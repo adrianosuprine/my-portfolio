@@ -1,13 +1,14 @@
 body{
     background-color:black;
     color: white;
-    /* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
+    overflow-x: hidden;
+    
 }
 
 
 :root {
-    --bodyColor: black; /* Replace with your actual color */
-    --lightText: white; /* Replace with your actual color */
+    --bodyColor: black;
+    --lightText: white; 
 }
 
 /* Container styles */
@@ -32,70 +33,6 @@ body{
     padding-top: 0px;  /* No top padding for the home section */
 }
 
-/* home stylings */
-.home {
-    display: flex;
-    align-items: center;
-    /* justify-content: space-between; */
-    margin-left: 40px;
-}
-.name{
-    background: linear-gradient(to right, rgb(0, 255, 255), rgb(128, 0, 128));
-    -webkit-text-fill-color: transparent;
-    -webkit-background-clip: text;
-}
-.resume-button {
-    background: linear-gradient(to right, rgb(0, 255, 255), rgb(128, 0, 128));
-    color : white;
-    font-size: 19px;
-    padding-left: 17px;
-    padding-right: 17px;
-    padding-top: 6px;
-    padding-bottom: 6px;
-    border-radius: 3rem;
-    /* padding: 10px; */
-}
-.dev{
-    margin-right: 100px;
-}
-.dev h5 {
-    font-size: 20px;
-
-}
-.dev #hello {
-margin: 0px 0px 8px 40px;
-}
-.name #name{
-    margin: 16px 0px;
-    }
-.dev #SOD {
-    margin: 0px 0px 24px;
-    }
-.dev h2 {
-    font-size: 40px;
-    margin:16px 0px;
-}
-.dev p {
-    font-size: 16px;
-}
-.profile-container {
-    width: 320px; 
-    height: 320px; 
-    overflow: hidden;
-    border-radius: 50%; /* Makes the container rounded */
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border: 0px solid;
-    background-color: black;
-}
-
-.profile-picture {
-    width: 100%;
-    height: auto;
-    min-height: 100%; /* Ensures the picture fills the container */
-    object-fit: cover; /* Ensures the picture is cropped to fit */
-}
 
 /*--------------------------about styles----------------------------- */
 .about-container {
