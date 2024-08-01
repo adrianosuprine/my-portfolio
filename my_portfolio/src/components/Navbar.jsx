@@ -32,6 +32,7 @@ function Navbar() {
         <div className="left">
          <h1><span>Ad</span>riano.</h1>
         </div>
+        {/* ....desktop menu */}
         <div className="desktop-menu desktop-menu-lg">
           <ul className='menu-list menu-list-lg'>
             {navlinksdata.map(({_id, title, link}) => (

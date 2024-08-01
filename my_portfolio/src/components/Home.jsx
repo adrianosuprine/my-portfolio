@@ -11,7 +11,7 @@ function Home (){
         window.open(resume, '_blank', 'noopener,noreferrer');
       }
     return (
-        <>
+        <section id="home">
             <div className='home'>
             <div className='dev'>
                 <h5 id='hello'>Hello, I'm</h5>
@@ -33,7 +33,7 @@ function Home (){
                 
             </div>
             </div>
-        </>
+        </section>
 
     );
 }

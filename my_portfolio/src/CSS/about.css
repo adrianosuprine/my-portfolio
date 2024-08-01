@@ -1,0 +1,52 @@
+.about-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 3%;
+    padding-top: 4vh;
+    height: 90vh;
+    box-sizing: border-box;
+    min-height: fit-content;
+    position: relative;
+    margin-top: 3rem;
+}
+
+.img-container {
+    width: 1000px; 
+    height: 400px; 
+    overflow: hidden;
+    border-radius: 2rem; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} 
+
+.abt-pic {
+    width: 900px;
+    height: 600px;
+    border-radius: 7rem; 
+}
+.details-abt-container{
+    gap: 1rem;
+    margin-bottom: 1rem;
+    margin-top: 2rem;
+}
+
+.about-me {
+    font-size: 17px;
+    margin-left: 20px;
+    margin-top: -px;
+}
+
+.title {
+    font-size: 48px;
+    color: aqua;
+}
+
+.aboutme {
+    font-size: 20px;
+    margin-top: -2rem;
+}
+
+
