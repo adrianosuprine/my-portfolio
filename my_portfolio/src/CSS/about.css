@@ -30,13 +30,13 @@
 .details-abt-container{
     gap: 1rem;
     margin-bottom: 1rem;
-    margin-top: 2rem;
+    padding-top:-15rem;
 }
 
 .about-me {
     font-size: 17px;
     margin-left: 20px;
-    margin-top: -px;
+    /* margin-top: 10px; */
 }
 
 .title {
