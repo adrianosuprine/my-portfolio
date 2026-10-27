@@ -17,7 +17,8 @@ const tabs = [
     label: 'Experience', 
     content: (
       <ul>
-        <li><span> - June 2024 - present</span><br />Freelancer</li>
+        <li><span> - Aug 2024 - present</span><br />Research Assistant - ACIP</li>
+        <li><span> - Jan 2023 - July 2024</span><br /> Freelancer</li>
         <li><span> - Jan 2020 - Sep 2021</span><br />IT Assistant - Jomic Tech</li>
       </ul>
     )
