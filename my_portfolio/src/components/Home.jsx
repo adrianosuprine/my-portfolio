@@ -5,6 +5,7 @@ import github from '../assets/github-svg.svg'
 import linkedinDark from '../assets/linkedin-dark-rounded.png';
 import githubDark from '../assets/github-dark.png';
 import resume from '../assets/SUPRINE ADRIANO.N.pdf'
+import profile_pic1 from '../assets/profile1.jpeg'
 function Home (){
 
     const handleDownload = () => {
@@ -29,7 +30,7 @@ function Home (){
         </div>
             </div>
             <div className='profile-container'>
-                <img src="src/assets/profile1.jpeg" alt="Profile Picture" class="profile-picture"></img>
+                <img src={profile_pic1} alt="Profile Picture" class="profile-picture"></img>
                 
             </div>
             </div>
